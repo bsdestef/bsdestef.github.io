@@ -1,1 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Ben DeStefon - Senior Year</h1>
+    <h2>Welcome to my Senior Year Portfolio for CSCI 3054!</h2>
 
+    <meta name="description" content="Ben DeStefon's Senior Year Portfolio for CSCI 3054">
+</head>
+<body>
+    <h3>The following will be links connecting you to my classes, and their individual pages, assignments, and projects:</h3>
+</body>
+<footer>
+    <p>&copy; 2026 Ben DeStefon. All rights reserved.</p>
+</footer>
+</html>
