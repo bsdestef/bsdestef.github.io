@@ -1,0 +1,57 @@
+/* Rule 1: take off the bullets and put the list side by side */
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+}
+
+/* Rule 2: background color behind the list text */
+li {
+    background-color: navy;
+    color: white;
+}
+
+/* Rule 3a: 30 pixels of margin on the left and right */
+/* li { margin: 0 30px;} */
+
+/* Rule 3b: 30 em of margin on the left and right */
+/* li {margin: 0 30em;} */
+
+/* Rule 4a: 30 pixels of padding on the left and right */
+/* li {padding: 0 30px;} */
+
+/* Rule 4b: 30 em of padding on the left and right */
+/* li {padding: 0 30em;
+} */
+
+/* Rule 4c: the padding I actually want */
+li {
+    padding: 10px 25px;
+}
+
+/* Rule 5: move the footer paragraph to the right */
+footer p {
+    text-align: right;
+}
+
+/* Rule 6: make the image 400 by 400 */
+img {
+    height: 400px;
+    width: 400px;
+}
+
+/* Rule 7: put the span on the bottom right corner of the image */
+div {
+    position: relative;
+    display: inline-block;
+}
+
+span {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    color: white;
+    background-color: navy;
+}

@@ -1,0 +1,37 @@
+/* Rule 1: header and heading color and styling */
+
+header {
+    background-color: navy;
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Rule 2: center the list of links on the page */
+
+ul {
+    list-style-type: none;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+/* Rule 3: footer color, forced to the bottom */
+
+
+footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
