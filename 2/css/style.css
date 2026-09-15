@@ -52,6 +52,6 @@ span {
     position: absolute;
     bottom: 15px;
     right: 15px;
-    color: white;
+    color: rgb(248, 7, 7);
     background-color: navy;
 }
