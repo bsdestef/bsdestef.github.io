@@ -1,0 +1,756 @@
+{
+  "categories": [
+    {
+      "id": "inner-planets",
+      "name": "Inner Planets",
+      "description": "The four rocky worlds closest to the Sun: Mercury, Venus, Earth, and Mars.",
+      "objects": [
+        {
+          "id": "mercury",
+          "name": "Mercury",
+          "blurb": "The smallest planet and the closest to the Sun.",
+          "image": "img/mercury.webp",
+          "alt": "Dark close up image of Mercury, showing its surface features, all gray with tons of craters",
+          "caption": "Mercury, the smallest planet in our solar system.",
+          "credit": "NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of Washington",
+          "overview": "Mercury is the closest planet to the Sun and the smallest planet in our solar system. It has a rocky surface covered with craters, similar to our Moon. Mercury has a very thin atmosphere, which means it cannot retain heat, leading to extreme temperature variations between day and night. Despite its small size, Mercury has a magnetic field, which is unusual for a planet of its size.",
+          "facts": [
+            "Even though Mercury is the closest planet to the Sun, it is not the hottest. Venus is, because its thick atmosphere traps heat.",
+            "Temperatures swing from about 800°F during the day to −290°F at night."
+          ],
+          "quickFacts": [
+            {
+              "label": "Type",
+              "value": "Rocky Planet"
+            },
+            {
+              "label": "Distance from Earth",
+              "value": "48.0-137.9 million miles"
+            },
+            {
+              "label": "Size",
+              "value": "3,032 miles in diameter"
+            },
+            {
+              "label": "Discovery",
+              "value": "Known since the prehistoric times, so there is no single recorded discoverer"
+            }
+          ],
+          "sources": [
+            {
+              "text": "NASA Solar System Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html"
+            },
+            {
+              "text": "Space.com Mercury Facts",
+              "url": "https://www.space.com/mercury-facts.html"
+            },
+            {
+              "text": "NASA Science: Mercury Facts",
+              "url": "https://science.nasa.gov/mercury/facts/"
+            }
+          ]
+        },
+        {
+          "id": "venus",
+          "name": "Venus",
+          "blurb": "The hottest planet, hidden under thick clouds.",
+          "image": "img/venus.webp",
+          "alt": "Color coded radar map of Venus's surface, with low plains in purple and highlands in yellow, orange, and red.",
+          "caption": "Venus, the hottest planet in our solar system.",
+          "credit": "NASA/JPL/USGS",
+          "overview": "Venus is the second planet from the Sun and is nearly the same size as Earth, which is why it is sometimes called Earth's twin. Its thick atmosphere of carbon dioxide traps heat, making Venus the hottest planet in the solar system, even hotter than Mercury. Clouds of sulfuric acid hide its surface from view. Venus also spins backward compared to most planets, so the Sun rises in the west there.",
+          "facts": [
+            "A day on Venus (243 Earth days) is longer than its year (225 Earth days).",
+            "Surface temperatures reach about 900°F, hot enough to melt lead."
+          ],
+          "quickFacts": [
+            {
+              "label": "Type",
+              "value": "Rocky Planet"
+            },
+            {
+              "label": "Distance from Earth",
+              "value": "23.7-162.2 million miles"
+            },
+            {
+              "label": "Size",
+              "value": "7,521 miles in diameter"
+            },
+            {
+              "label": "Discovery",
+              "value": "Known since prehistoric times; Galileo observed its phases through a telescope in 1610."
+            }
+          ],
+          "sources": [
+            {
+              "text": "NASA Solar System Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html"
+            },
+            {
+              "text": "NASA Science: Venus Facts",
+              "url": "https://science.nasa.gov/venus/facts/"
+            }
+          ]
+        },
+        {
+          "id": "earth",
+          "name": "Earth",
+          "blurb": "Our home, and the only world known to support life.",
+          "image": "img/earth.webp",
+          "alt": "A view of Earth from space, showing the blue oceans, white clouds, and green-brown landmasses.",
+          "caption": "Earth photographed by the Apollo 13 crew on their journey home.",
+          "credit": "NASA",
+          "overview": "Earth is the third planet from the Sun and the only astronomical object known to harbor life. About 29% of Earth's surface is land consisting of continents and islands. The remaining 71% is covered with water, mostly by oceans, seas, and lakes.",
+          "facts": [
+            "Earth is the only planet in our solar system with liquid water on its surface.",
+            "Earth is the only planet not named after a Roman or Greek god."
+          ],
+          "quickFacts": [
+            {
+              "label": "Type",
+              "value": "Rocky Planet"
+            },
+            {
+              "label": "Distance from Earth",
+              "value": "0 miles"
+            },
+            {
+              "label": "Size",
+              "value": "7,926 miles in diameter"
+            },
+            {
+              "label": "Discovery",
+              "value": "Our home planet; first photographed as a whole from space in the 1960s"
+            }
+          ],
+          "sources": [
+            {
+              "text": "NASA Solar System Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            },
+            {
+              "text": "NASA Science: Earth Facts",
+              "url": "https://science.nasa.gov/earth/facts/"
+            }
+          ]
+        },
+        {
+          "id": "mars",
+          "name": "Mars",
+          "blurb": "The Red Planet, home to the largest volcano in the solar system.",
+          "image": "img/mars.webp",
+          "alt": "Side-by-side comparison of blue, cloud-covered Earth and the smaller, tan-orange Mars against black space.",
+          "caption": "Earth (left) and Mars (right) shown to scale. Mars is about half the size of Earth.",
+          "credit": "NASA/JPL",
+          "overview": "Mars is the fourth planet from the Sun and is known as the Red Planet because iron minerals in its soil have rusted. It is a cold desert world about half the size of Earth, with a thin atmosphere made mostly of carbon dioxide. Mars has seasons, polar ice caps, and the remains of ancient riverbeds, which suggest liquid water once flowed on its surface. Today it is one of the most explored planets, with rovers like Perseverance searching for signs of past life.",
+          "facts": [
+            "Mars has the largest volcano in the solar system, Olympus Mons, about three times taller than Mount Everest.",
+            "Mars has two small moons, Phobos and Deimos."
+          ],
+          "quickFacts": [
+            {
+              "label": "Type",
+              "value": "Rocky Planet"
+            },
+            {
+              "label": "Distance from Earth",
+              "value": "33.9-249.4 million miles"
+            },
+            {
+              "label": "Size",
+              "value": "4,220 miles in diameter"
+            },
+            {
+              "label": "Discovery",
+              "value": "Known since the ancient times, Galileo first viewed it through a telescope in 1610."
+            }
+          ],
+          "sources": [
+            {
+              "text": "NASA Solar System Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html"
+            },
+            {
+              "text": "NASA Science: Mars Facts",
+              "url": "https://science.nasa.gov/mars/facts/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outer-planets",
+      "name": "Outer Planets",
+      "description": "The four giant worlds beyond the asteroid belt: Jupiter, Saturn, Uranus, and Neptune.",
+      "objects": [
+        {
+          "id": "jupiter",
+          "name": "Jupiter",
+          "blurb": "The largest planet, with a storm bigger than Earth.",
+          "image": "img/jupiter.webp",
+          "alt": "Black-and-white Hubble image of Jupiter showing its striped cloud bands",
+          "caption": "Jupiter, in one of the Hubble Space Telescope's first images, taken in 1991.",
+          "credit": "NASA",
+          "overview": "Jupiter is the fifth planet from the Sun and the largest in the solar system, more than twice as massive as all the other planets combined. It is a gas giant made mostly of hydrogen and helium, with no solid surface to stand on. Its colorful stripes are bands of clouds blown by powerful winds. Jupiter's Great Red Spot is a giant storm bigger than Earth that has been raging for hundreds of years.",
+          "facts": [
+            "More than 1,300 Earths could fit inside Jupiter.",
+            "Jupiter's four largest moons, Io, Europa, Ganymede, and Callisto, were discovered by Galileo in 1610."
+          ],
+          "quickFacts": [
+            {
+              "label": "Type",
+              "value": "Gas giant"
+            },
+            {
+              "label": "Distance from Earth",
+              "value": "365.7-601.8 million miles"
+            },
+            {
+              "label": "Size",
+              "value": "88,846 miles in diameter"
+            },
+            {
+              "label": "Discovery",
+              "value": "Known since ancient times; Galileo made the first detailed telescope observations in 1610"
+            }
+          ],
+          "sources": [
+            {
+              "text": "NASA Solar System Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html"
+            },
+            {
+              "text": "NASA Science: Jupiter Facts",
+              "url": "https://science.nasa.gov/jupiter/jupiter-facts/"
+            },
+            {
+              "text": "NASA Science: Jupiter Moons",
+              "url": "https://science.nasa.gov/jupiter/jupiter-moons/"
+            }
+          ]
+        },
+        {
+          "id": "saturn",
+          "name": "Saturn",
+          "blurb": "The ringed giant with more moons than any other planet.",
+          "image": "img/saturn.webp",
+          "alt": "Golden-tan Saturn surrounded by its wide, bright rings against black space",
+          "caption": "Saturn and its famous rings.",
+          "credit": "NASA, ESA, and STScI",
+          "overview": "Saturn is the sixth planet from the Sun and the second largest in the solar system. Like Jupiter, it is a gas giant made mostly of hydrogen and helium. Saturn is best known for its spectacular rings, which are made of countless chunks of ice and rock ranging from tiny grains to pieces as big as houses. Saturn also has more moons than any other planet, including Titan, the only moon in the solar system with a thick atmosphere.",
+          "facts": [
+            "Saturn is less dense than water, so it would float in a bathtub big enough to hold it.",
+            "Saturn's rings stretch about 175,000 miles from the planet, but the main rings are only about 30 feet thick."
+          ],
+          "quickFacts": [
+            {
+              "label": "Type",
+              "value": "Gas giant"
+            },
+            {
+              "label": "Distance from Earth",
+              "value": "749.1 million-1.03 billion miles"
+            },
+            {
+              "label": "Size",
+              "value": "74,898 miles in diameter"
+            },
+            {
+              "label": "Discovery",
+              "value": "Known since ancient times; Galileo first observed it through a telescope in 1610, and Christiaan Huygens identified its rings in 1655"
+            }
+          ],
+          "sources": [
+            {
+              "text": "NASA Solar System Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html"
+            },
+            {
+              "text": "NASA Science: Saturn Facts",
+              "url": "https://science.nasa.gov/saturn/facts/"
+            },
+            {
+              "text": "NASA Science: Saturn Exploration",
+              "url": "https://science.nasa.gov/saturn/exploration/"
+            }
+          ]
+        },
+        {
+          "id": "uranus",
+          "name": "Uranus",
+          "blurb": "The ice giant that spins on its side.",
+          "image": "img/uranus.webp",
+          "alt": "Blurry pale blue Uranus with a bright white haze over its pole",
+          "caption": "Uranus, the ice giant that rolls around the Sun on its side.",
+          "credit": "NASA, ESA, Amy Simon (NASA-GSFC), Michael Wong (UC Berkeley); Image Processing: Alyssa Pagan (STScI)",
+          "overview": "Uranus is the seventh planet from the Sun and is known as an ice giant. Most of the planet is made of a hot, dense fluid of water, methane, and ammonia above a small rocky core. Methane in its atmosphere gives Uranus its pale blue-green color. Uranus is tilted so far over that it spins on its side, which gives it the most extreme seasons in the solar system. Each pole gets about 42 years of continuous sunlight, followed by 42 years of darkness.",
+          "facts": [
+            "Uranus was the first planet discovered with the help of a telescope.",
+            "Uranus has 13 known rings, and its moons are named after characters from the works of William Shakespeare and Alexander Pope."
+          ],
+          "quickFacts": [
+            {
+              "label": "Type",
+              "value": "Ice giant"
+            },
+            {
+              "label": "Distance from Earth",
+              "value": "1.60-1.96 billion miles"
+            },
+            {
+              "label": "Size",
+              "value": "31,763 miles in diameter"
+            },
+            {
+              "label": "Discovery",
+              "value": "Discovered by William Herschel in 1781"
+            }
+          ],
+          "sources": [
+            {
+              "text": "NASA Solar System Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uranusfact.html"
+            },
+            {
+              "text": "NASA Science: Uranus Facts",
+              "url": "https://science.nasa.gov/uranus/facts/"
+            },
+            {
+              "text": "NASA Science: Uranus",
+              "url": "https://science.nasa.gov/uranus/"
+            }
+          ]
+        },
+        {
+          "id": "neptune",
+          "name": "Neptune",
+          "blurb": "The windiest planet and the farthest from the Sun.",
+          "image": "img/neptune.webp",
+          "alt": "Deep blue Neptune with a dark storm spot and streaks of white clouds",
+          "caption": "Neptune, the farthest planet from the Sun.",
+          "credit": "NASA/JPL-Caltech",
+          "overview": "Neptune is the eighth and farthest planet from the Sun. It is a dark, cold ice giant, and methane in its atmosphere gives it a deep blue color. Neptune is the windiest planet in the solar system, with storms that race across its clouds faster than the speed of sound. It takes Neptune about 165 Earth years to orbit the Sun once. Only one spacecraft has ever visited it: Voyager 2, which flew past in 1989.",
+          "facts": [
+            "Neptune was the first planet found using math. Astronomers predicted where it should be before anyone saw it.",
+            "Neptune's largest moon, Triton, orbits backward, which suggests Neptune captured it long ago."
+          ],
+          "quickFacts": [
+            {
+              "label": "Type",
+              "value": "Ice giant"
+            },
+            {
+              "label": "Distance from Earth",
+              "value": "2.68-2.93 billion miles"
+            },
+            {
+              "label": "Size",
+              "value": "30,775 miles in diameter"
+            },
+            {
+              "label": "Discovery",
+              "value": "Found by Johann Galle in 1846, using predictions made by Urbain Le Verrier"
+            }
+          ],
+          "sources": [
+            {
+              "text": "NASA Solar System Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptunefact.html"
+            },
+            {
+              "text": "NASA Science: Neptune Facts",
+              "url": "https://science.nasa.gov/neptune/neptune-facts/"
+            },
+            {
+              "text": "NASA Science: Neptune",
+              "url": "https://science.nasa.gov/neptune/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "galaxies",
+      "name": "Galaxies",
+      "description": "Enormous collections of stars, gas, dust, and dark matter held together by gravity.",
+      "objects": [
+        {
+          "id": "andromeda",
+          "name": "Andromeda Galaxy (M31)",
+          "blurb": "The nearest large spiral galaxy to the Milky Way.",
+          "image": "img/andromeda.webp",
+          "alt": "Wide panoramic strip of the Andromeda Galaxy, with its glowing yellow core on the left and dark dust lanes among countless stars",
+          "caption": "The Andromeda Galaxy, our closest large galactic neighbor.",
+          "credit": "NASA, ESA, J. Dalcanton, B. F. Williams, L. C. Johnson (University of Washington), the PHAT team, and R. Gendler",
+          "overview": "The Andromeda Galaxy is the nearest large spiral galaxy to our own Milky Way and the biggest member of our Local Group of galaxies. It contains around a trillion stars spread across a disk more than 200,000 light-years wide. On a clear, dark night, Andromeda can be seen without a telescope as a faint, fuzzy smudge. For centuries people thought it was a cloud inside our galaxy, until Edwin Hubble proved in the 1920s that it is a separate galaxy far beyond the Milky Way.",
+          "facts": [
+            "Andromeda is the most distant object most people can see with the naked eye.",
+            "NASA's 2025 Hubble panorama of Andromeda used more than 600 overlapping images and shows about 200 million stars."
+          ],
+          "quickFacts": [
+            {
+              "label": "Type",
+              "value": "Spiral galaxy"
+            },
+            {
+              "label": "Distance from Earth",
+              "value": "About 2.5 million light-years"
+            },
+            {
+              "label": "Size",
+              "value": "About 200,000-260,000 light-years across"
+            },
+            {
+              "label": "Discovery",
+              "value": "Recorded by Persian astronomer Abd al-Rahman al-Sufi in 964 AD; Edwin Hubble showed it was a separate galaxy in the 1920s"
+            }
+          ],
+          "sources": [
+            {
+              "text": "NASA Hubble: Messier 31",
+              "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-31/"
+            },
+            {
+              "text": "NASA: Hubble Traces Hidden History of Andromeda",
+              "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-traces-hidden-history-of-andromeda-galaxy/"
+            },
+            {
+              "text": "ESA: Andromeda Galaxy Image",
+              "url": "https://www.esa.int/content/view/full/447076"
+            }
+          ]
+        },
+        {
+          "id": "whirlpool",
+          "name": "Whirlpool Galaxy (M51)",
+          "blurb": "A face-on spiral being tugged by a smaller companion.",
+          "image": "img/whirlpool.webp",
+          "alt": "The Whirlpool Galaxy seen face-on, with two curving spiral arms dotted with pink star-forming regions and a small companion galaxy at the end of one arm",
+          "caption": "The Whirlpool Galaxy and its companion, NGC 5195.",
+          "credit": "NASA/Hubble",
+          "overview": "The Whirlpool Galaxy is a spiral galaxy that faces Earth almost head-on, giving us a clear view of its sweeping arms. A smaller companion galaxy, NGC 5195, is tugging on one of its arms. This gravitational pull is thought to have strengthened the Whirlpool's spiral shape and triggered bursts of new star formation. The pink patches along its arms are clouds of glowing gas where new stars are being born.",
+          "facts": [
+            "The Whirlpool was the first galaxy ever recognized to have a spiral shape, spotted by Lord Rosse in 1845.",
+            "Its spiral arms are busy star factories, where gas is squeezed together to form new stars."
+          ],
+          "quickFacts": [
+            {
+              "label": "Type",
+              "value": "Spiral galaxy"
+            },
+            {
+              "label": "Distance from Earth",
+              "value": "About 31 million light-years"
+            },
+            {
+              "label": "Size",
+              "value": "About 60,000 light-years across"
+            },
+            {
+              "label": "Discovery",
+              "value": "Discovered by Charles Messier in 1773"
+            }
+          ],
+          "sources": [
+            {
+              "text": "NASA Hubble: Messier 51",
+              "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-51/"
+            },
+            {
+              "text": "NASA: Whirlpool Galaxy Image",
+              "url": "https://www.nasa.gov/image-article/whirlpool-galaxy/"
+            },
+            {
+              "text": "NASA Hubble Messier Catalog",
+              "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/"
+            }
+          ]
+        },
+        {
+          "id": "sombrero",
+          "name": "Sombrero Galaxy (M104)",
+          "blurb": "An edge-on spiral with a bright core and dark dust lane.",
+          "image": "img/sombrero.webp",
+          "alt": "The Sombrero Galaxy seen nearly edge-on, with a bright glowing center and a dark band of dust across its middle, shaped like a hat",
+          "caption": "The Sombrero Galaxy, named for its hat-like shape.",
+          "credit": "NASA and the Hubble Heritage Team (STScI/AURA)",
+          "overview": "The Sombrero Galaxy gets its name from its shape. Seen almost edge-on from Earth, its bright, bulging center and thick lane of dark dust make it look like a wide-brimmed Mexican hat. The galaxy is surrounded by a huge swarm of star clusters, and a supermassive black hole sits at its center. Because of its striking look, it is one of the most photographed galaxies in the sky.",
+          "facts": [
+            "The Sombrero has about 2,000 globular star clusters, roughly ten times as many as the Milky Way.",
+            "A supermassive black hole about 1 billion times the mass of the Sun sits at its center."
+          ],
+          "quickFacts": [
+            {
+              "label": "Type",
+              "value": "Spiral galaxy"
+            },
+            {
+              "label": "Distance from Earth",
+              "value": "About 28 million light-years"
+            },
+            {
+              "label": "Size",
+              "value": "About 50,000 light-years across"
+            },
+            {
+              "label": "Discovery",
+              "value": "Discovered by Pierre Méchain in 1781"
+            }
+          ],
+          "sources": [
+            {
+              "text": "NASA Hubble: Messier 104",
+              "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-104/"
+            },
+            {
+              "text": "NASA: Sombrero Galaxy Image",
+              "url": "https://science.nasa.gov/asset/hubble/sombrero-galaxy/"
+            },
+            {
+              "text": "NASA: The Majestic Sombrero Galaxy",
+              "url": "https://science.nasa.gov/asset/hubble/the-majestic-sombrero-galaxy-m104/"
+            }
+          ]
+        },
+        {
+          "id": "triangulum",
+          "name": "Triangulum Galaxy (M33)",
+          "blurb": "A Local Group spiral full of newborn stars.",
+          "image": "img/triangulum.webp",
+          "alt": "Close-up of the Triangulum Galaxy, a dense field of countless stars around a hazy orange center",
+          "caption": "The Triangulum Galaxy, the third-largest galaxy in our Local Group.",
+          "credit": "NASA, ESA, and M. Durbin, J. Dalcanton and B. F. Williams (University of Washington)",
+          "overview": "The Triangulum Galaxy is a spiral galaxy about half the size of the Milky Way. It is the third-largest member of our Local Group, after Andromeda and the Milky Way. Triangulum is packed with young stars and glowing clouds of gas, including NGC 604, one of the largest star-forming regions known nearby. Under very dark skies, sharp-eyed observers can sometimes spot it without a telescope.",
+          "facts": [
+            "Triangulum is part of the Local Group, the same family of galaxies that includes the Milky Way and Andromeda.",
+            "Hubble's giant mosaic of Triangulum combines 54 separate telescope views."
+          ],
+          "quickFacts": [
+            {
+              "label": "Type",
+              "value": "Spiral galaxy"
+            },
+            {
+              "label": "Distance from Earth",
+              "value": "About 3 million light-years"
+            },
+            {
+              "label": "Size",
+              "value": "About 60,000 light-years across"
+            },
+            {
+              "label": "Discovery",
+              "value": "Cataloged by Charles Messier in 1764"
+            }
+          ],
+          "sources": [
+            {
+              "text": "NASA Hubble: Messier 33",
+              "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-33/"
+            },
+            {
+              "text": "NASA: Triangulum Galaxy Image",
+              "url": "https://www.nasa.gov/image-article/triangulum-galaxy/"
+            },
+            {
+              "text": "NASA Hubble Messier Catalog",
+              "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "black-holes",
+      "name": "Black Holes",
+      "description": "Objects so dense that, beyond the event horizon, nothing can escape, not even light.",
+      "objects": [
+        {
+          "id": "sagittarius-a",
+          "name": "Sagittarius A*",
+          "blurb": "The supermassive black hole at the heart of our galaxy.",
+          "image": "img/sagittarius-a.webp",
+          "alt": "Annotated X-ray map of the Milky Way's center, with colorful clouds of hot gas and labels marking Sagittarius A* and two chimneys of gas above and below it",
+          "caption": "An X-ray map of the center of the Milky Way, with Sagittarius A* labeled in the middle.",
+          "credit": "ESA/XMM-Newton/G. Ponti et al. 2019, Nature",
+          "overview": "Sagittarius A* (pronounced \"Sagittarius A-star\") is the supermassive black hole at the very center of our Milky Way galaxy. It holds about four million times the mass of the Sun packed into a space smaller than Mercury's orbit. Thick clouds of dust block it from view in visible light, so astronomers study it using radio waves, infrared light, and X-rays. By tracking stars that whip around it at incredible speeds, scientists proved that something extremely massive and invisible sits there.",
+          "facts": [
+            "The first image of Sagittarius A* was released in 2022 by the Event Horizon Telescope, a network of radio telescopes around the world.",
+            "Even with its huge mass, Sagittarius A* is fairly quiet, because very little nearby gas actually falls into it."
+          ],
+          "quickFacts": [
+            {
+              "label": "Type",
+              "value": "Supermassive black hole"
+            },
+            {
+              "label": "Distance from Earth",
+              "value": "About 26,000 light-years"
+            },
+            {
+              "label": "Size",
+              "value": "About 4 million times the mass of the Sun"
+            },
+            {
+              "label": "Discovery",
+              "value": "Detected as a radio source in 1974; stars orbiting it later confirmed it is a black hole"
+            }
+          ],
+          "sources": [
+            {
+              "text": "NASA: Supermassive Black Hole Sagittarius A*",
+              "url": "https://www.nasa.gov/image-article/supermassive-black-hole-sagittarius/"
+            },
+            {
+              "text": "NASA HEASARC: Sagittarius A*",
+              "url": "https://heasarc.gsfc.nasa.gov/docs/objects/galaxies/sag-a_star.html"
+            },
+            {
+              "text": "ESA: XMM-Newton View of the Galactic Centre",
+              "url": "https://www.esa.int/ESA_Multimedia/Images/2019/03/XMM-Newton_s_view_of_the_Galactic_centre_annotated"
+            }
+          ]
+        },
+        {
+          "id": "m87",
+          "name": "M87*",
+          "blurb": "The first black hole ever photographed.",
+          "image": "img/m87.webp",
+          "alt": "Greenish X-ray image of the galaxy M87, with a bright point at its center surrounded by hazy hot gas",
+          "caption": "The galaxy M87, home of the black hole M87*.",
+          "credit": "ESA/XMM-Newton; Acknowledgement: P. Rodriguez",
+          "overview": "M87* is a supermassive black hole at the center of the giant galaxy Messier 87. It is one of the biggest black holes known, with about 6.5 billion times the mass of the Sun. M87* is very active: it blasts out a jet of particles moving at nearly the speed of light that stretches about 5,000 light-years into space. In 2019, it became the first black hole ever photographed, appearing as a dark shadow surrounded by a glowing ring.",
+          "facts": [
+            "M87* was the first black hole ever imaged, with the picture released on April 10, 2019.",
+            "The image was captured by the Event Horizon Telescope, which linked radio dishes around the world to act like one telescope the size of Earth."
+          ],
+          "quickFacts": [
+            {
+              "label": "Type",
+              "value": "Supermassive black hole"
+            },
+            {
+              "label": "Distance from Earth",
+              "value": "About 55 million light-years"
+            },
+            {
+              "label": "Size",
+              "value": "About 6.5 billion times the mass of the Sun"
+            },
+            {
+              "label": "Discovery",
+              "value": "Hubble confirmed a massive black hole in M87 in 1994; the Event Horizon Telescope imaged it in 2019"
+            }
+          ],
+          "sources": [
+            {
+              "text": "NASA: First Image of a Black Hole",
+              "url": "https://science.nasa.gov/resource/first-image-of-a-black-hole/"
+            },
+            {
+              "text": "NASA: Hubble Confirms Massive Black Hole",
+              "url": "https://science.nasa.gov/missions/hubble/hubble-confirms-existence-of-massive-black-hole-at-heart-of-active-galaxy/"
+            },
+            {
+              "text": "NASA JPL: How Scientists Captured the First Image of a Black Hole",
+              "url": "https://www.jpl.nasa.gov/edu/resources/teachable-moment/how-scientists-captured-the-first-image-of-a-black-hole/"
+            }
+          ]
+        },
+        {
+          "id": "cygnus-x-1",
+          "name": "Cygnus X-1",
+          "blurb": "One of the first black holes ever discovered.",
+          "image": "img/cygnus-x-1.webp",
+          "alt": "Visualization of known black hole systems in and near our galaxy, each shown as a glowing disk of gas beside its companion star, with Cygnus X-1 labeled at lower left",
+          "caption": "NASA's Black Hole Orrery, a visualization of known black hole systems, with Cygnus X-1 at lower left (not a photograph).",
+          "credit": "NASA's Goddard Space Flight Center and Scientific Visualization Studio",
+          "overview": "Cygnus X-1 is a black hole about 21 times the mass of the Sun, located in our own Milky Way galaxy in the constellation Cygnus. It orbits a giant blue star and pulls gas away from it. As the gas spirals toward the black hole, it forms a disk that heats up to millions of degrees and shines brightly in X-rays. Cygnus X-1 was one of the first objects that scientists widely agreed was a black hole.",
+          "facts": [
+            "In 1974, Stephen Hawking bet physicist Kip Thorne that Cygnus X-1 was not a black hole. He admitted he lost the bet in 1990.",
+            "The black hole and its companion star orbit each other once every 5.6 days."
+          ],
+          "quickFacts": [
+            {
+              "label": "Type",
+              "value": "Stellar-mass black hole"
+            },
+            {
+              "label": "Distance from Earth",
+              "value": "About 7,200 light-years"
+            },
+            {
+              "label": "Size",
+              "value": "About 21 times the mass of the Sun; its event horizon is only about 77 miles across"
+            },
+            {
+              "label": "Discovery",
+              "value": "Discovered as an X-ray source in 1964"
+            }
+          ],
+          "sources": [
+            {
+              "text": "NASA: Best-Known Black Hole Systems",
+              "url": "https://www.nasa.gov/universe/nasa-visualization-rounds-up-the-best-known-black-hole-systems/"
+            },
+            {
+              "text": "NASA HEASARC: Cygnus X-1",
+              "url": "https://heasarc.gsfc.nasa.gov/docs/objects/heapow/archive/compact_objects/cygx1.html"
+            },
+            {
+              "text": "NASA Scientific Visualization Studio",
+              "url": "https://svs.gsfc.nasa.gov/14149/"
+            }
+          ]
+        },
+        {
+          "id": "ton-618",
+          "name": "TON 618",
+          "blurb": "One of the most massive black holes ever found.",
+          "image": "img/ton-618.webp",
+          "alt": "Sky survey image of scattered stars and galaxies, with a red circle around a small, bright blue point of light: the quasar TON 618",
+          "caption": "TON 618, a distant quasar powered by one of the largest known black holes.",
+          "credit": "SDSS",
+          "overview": "TON 618 is one of the most massive black holes ever found, with about 66 billion times the mass of the Sun. It powers a quasar, an extremely bright object that shines when huge amounts of gas fall toward a black hole and heat up. TON 618 is so far away that its light has traveled for more than 10 billion years to reach us. That means we are seeing it as it looked when the universe was young.",
+          "facts": [
+            "The name TON 618 comes from the Tonantzintla Observatory in Mexico, where it was first cataloged in 1957.",
+            "Because its light took over 10 billion years to reach Earth, looking at TON 618 is like looking back in time."
+          ],
+          "quickFacts": [
+            {
+              "label": "Type",
+              "value": "Ultramassive black hole (powers a quasar)"
+            },
+            {
+              "label": "Distance from Earth",
+              "value": "More than 10 billion light-years"
+            },
+            {
+              "label": "Size",
+              "value": "About 66 billion times the mass of the Sun"
+            },
+            {
+              "label": "Discovery",
+              "value": "Cataloged in 1957 as a faint blue star; later identified as a quasar"
+            }
+          ],
+          "sources": [
+            {
+              "text": "NASA: Sizing Up the Universe's Biggest Black Holes",
+              "url": "https://www.nasa.gov/universe/nasa-animation-sizes-up-the-universes-biggest-black-holes/"
+            },
+            {
+              "text": "NASA Science: Black Holes",
+              "url": "https://science.nasa.gov/universe/black-holes/"
+            },
+            {
+              "text": "Sloan Digital Sky Survey (image source)",
+              "url": "https://www.sdss.org/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
