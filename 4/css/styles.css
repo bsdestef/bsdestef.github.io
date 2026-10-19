@@ -1,160 +1,275 @@
+/* Space Explorer styles: mobile-first, with larger layouts added by media queries. */
+
+/* ---------- Base ---------- */
 body {
-background-color: #0b0d17;
-color: #f4f1f1;
-font-family: Arial,Helvetica, sans-serif;
-margin: 0;
-line-height: 1.6;
+    background-color: #0b0d17;
+    color: #f4f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    line-height: 1.6;
 }
 
-img { max-width: 100%; height: auto; }
+img {
+    max-width: 100%;
+    height: auto;
+}
 
+h1,
+h2,
+h3 {
+    color: #f5c35b;
+    line-height: 1.25;
+}
+
+a {
+    color: #a99cff;
+}
+
+a:hover,
+a:focus-visible {
+    color: #f5c35b;
+}
+
+strong {
+    color: #f5c35b;
+}
+
+/* Visible keyboard focus on everything that can be focused */
+:focus-visible {
+    outline: 3px solid #f5c35b;
+    outline-offset: 3px;
+}
+
+/* ---------- Header, navigation, footer ---------- */
 header {
     background-color: #161a2e;
     padding: 1rem;
     text-align: center;
 }
 
-header p{ 
+header p {
     font-size: 1.5rem;
     font-weight: bold;
     color: #f5c35b;
     margin: 0;
-
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0.5rem 0 0;
 }
 
 nav li {
     display: inline-block;
-    margin: 0 0.75rem;
+    margin: 0 0.25rem;
 }
 
-a{ 
-    color: #8b7cf6;
+/* Nav links get padding so they are easy to tap on a phone */
+nav a {
+    display: inline-block;
+    padding: 0.5rem 0.75rem;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-
-main{
+main {
     max-width: 1100px;
-    margin: 0rem auto;
+    margin: 0 auto;
     padding: 1rem;
 }
-h1, h2{
-color: #f5c35b;
+
+section {
+    margin-bottom: 2rem;
 }
 
-.card-grid{
-    
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-}
-
-.card{
-    
-    background-color: #161a2e;
-    text-align: center;
-    padding: 1rem;
-    border-radius: 10px;
-    transition: transform 0.2s;
-}
-
-footer{
-    
+footer {
     background-color: #161a2e;
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
 }
 
-@media (min-width: 600px){
-    .card-grid{
-        grid-template-columns: repeat(2, 1fr);
-    }
+/* ---------- Forms ---------- */
+label {
+    display: block;
+    width: 100%;
 }
 
-@media (min-width: 1000px){
-    .card-grid{
-        grid-template-columns: repeat(4, 1fr);
-    }
-header{
+input,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #6c5ce7;
+    color: #ffffff;
+    min-height: 44px;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover,
+button:focus-visible,
+button:active {
+    background-color: #5443d6;
+}
+
+/* ---------- Explorer (two-step page) ---------- */
+.card-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+/* Each choice is a real button styled as a card, so it works with mouse, touch, and keyboard */
+.choice-card {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-}
+    gap: 0.5rem;
+    width: 100%;
+    padding: 1rem;
+    background-color: #161a2e;
+    color: #f4f1f1;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.2s, border-color 0.2s;
 }
 
-nav a{
-    text-decoration: none;
+.choice-card img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+/* Hover effect also shows on keyboard focus and on a long press (:active) for touch screens */
+.choice-card:hover,
+.choice-card:focus-visible,
+.choice-card:active {
+    background-color: #161a2e;
+    border-color: #f5c35b;
+    transform: scale(1.03);
+}
+
+.choice-title {
+    font-size: 1.25rem;
     font-weight: bold;
-}
-
-a:hover{
     color: #f5c35b;
 }
 
-.card a{text-decoration: none;
+.choice-text {
+    font-size: 0.95rem;
 }
 
-.card:hover{transform: scale(1.03);
+.view-heading {
+    margin-bottom: 0.5rem;
 }
 
-figure{
+.view-intro {
+    margin-top: 0;
+}
+
+.back-button {
+    background-color: transparent;
+    color: #a99cff;
+    border: 2px solid #6c5ce7;
+    margin: 0 0.5rem 0.5rem 0;
+}
+
+.back-button:hover,
+.back-button:focus-visible,
+.back-button:active {
+    background-color: #6c5ce7;
+    color: #ffffff;
+}
+
+.back-buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.detail-layout {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.detail-section {
+    margin-bottom: 1.5rem;
+}
+
+.detail-section h3 {
+    margin-bottom: 0.25rem;
+}
+
+figure {
     margin: 0;
     text-align: center;
 }
 
-figcaption{ 
+figcaption {
     font-size: 0.9rem;
-    color: #a9adc1;
+    color: #b9bdd1;
 }
 
-strong{ 
-    color: #f5c35b;
+.error-message {
+    background-color: #3a1620;
+    border-left: 4px solid #ff6b81;
+    padding: 1rem;
 }
 
-section{
-    margin-bottom: 2rem;
+/* ---------- Login "coming soon" dialog ---------- */
+dialog {
+    max-width: 26rem;
+    background-color: #161a2e;
+    color: #f4f1f1;
+    border: 2px solid #f5c35b;
+    border-radius: 10px;
+    padding: 1.5rem;
 }
 
-label{
-    display: block;
-    width: 100%;
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
-input{
-    display: block;
-    width: 100%;
+/* ---------- Tablet ---------- */
+@media (min-width: 600px) {
+    .card-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
-textarea{
-    display: block;
-    width: 100%;
-}
+/* ---------- Desktop ---------- */
+@media (min-width: 1000px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-input{
-    padding: 0.5rem;
-    margin-bottom: 1rem;
-    border: none;
-    border-radius: 5px;
-    box-sizing: border-box;
-}
-textarea{
-    padding: 0.5rem;
-    margin-bottom: 1rem;
-    border: none;
-    border-radius: 5px;
-    box-sizing: border-box;
-}
+    nav ul {
+        margin: 0;
+    }
 
-button{
-    background-color: #8b7cf6;
-    color: white;
-    padding: 0.75rem 1.5rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    .card-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    /* Image beside the text on wide screens */
+    .detail-layout {
+        grid-template-columns: 2fr 3fr;
+        align-items: start;
+    }
 }

@@ -4,6 +4,8 @@
       "id": "inner-planets",
       "name": "Inner Planets",
       "description": "The four rocky worlds closest to the Sun: Mercury, Venus, Earth, and Mars.",
+      "image": "img/earth.webp",
+      "alt": "Earth seen from space",
       "objects": [
         {
           "id": "mercury",
@@ -183,6 +185,8 @@
       "id": "outer-planets",
       "name": "Outer Planets",
       "description": "The four giant worlds beyond the asteroid belt: Jupiter, Saturn, Uranus, and Neptune.",
+      "image": "img/saturn.webp",
+      "alt": "Saturn and its bright rings",
       "objects": [
         {
           "id": "jupiter",
@@ -374,6 +378,8 @@
       "id": "galaxies",
       "name": "Galaxies",
       "description": "Enormous collections of stars, gas, dust, and dark matter held together by gravity.",
+      "image": "img/whirlpool.webp",
+      "alt": "The Whirlpool Galaxy, a glowing spiral of stars",
       "objects": [
         {
           "id": "andromeda",
@@ -565,6 +571,8 @@
       "id": "black-holes",
       "name": "Black Holes",
       "description": "Objects so dense that, beyond the event horizon, nothing can escape, not even light.",
+      "image": "img/m87.webp",
+      "alt": "X-ray view of the galaxy M87, home of a supermassive black hole",
       "objects": [
         {
           "id": "sagittarius-a",
