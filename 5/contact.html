@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ben DeStefon">
+    <meta name="description" content="Contact Space Explorer with questions, corrections, or ideas for new objects.">
+    <title>Contact | Space Explorer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <script type="module" src="js/contact.js"></script>
+</head>
+<body data-access="protected">
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header class="site-header">
+        <div class="user-bar" id="userBar" aria-live="polite"></div>
+        <p class="site-name"><a href="index.html">Space Explorer</a></p>
+        <nav aria-label="Main">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" aria-current="page">Contact</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <p class="loading loading-large" id="authGate" role="status">
+            <span class="spinner" aria-hidden="true"></span>
+            <span>Checking your sign-in…</span>
+        </p>
+        <noscript>
+            <p class="status status-error">Space Explorer needs JavaScript turned on so you can log in.</p>
+        </noscript>
+
+        <div id="pageContent" hidden>
+            <h1>Contact Us</h1>
+            <p class="page-intro">Have a question, a correction, or an idea for a new object to add? Fill out the form and press <strong>Send Message</strong>. Your message is saved to our database, and you'll see a confirmation here once it arrives.</p>
+
+            <div class="form-card">
+                <form id="contactForm" class="stacked-form">
+                    <label for="contactName">Name</label>
+                    <input type="text" id="contactName" name="name" autocomplete="name" maxlength="100" required>
+
+                    <label for="contactEmail">Email</label>
+                    <input type="email" id="contactEmail" name="email" autocomplete="email" maxlength="254" aria-describedby="contactEmailHint" required>
+                    <p class="hint" id="contactEmailHint">We'll only use this to reply to you.</p>
+
+                    <label for="contactTopic">Topic</label>
+                    <select id="contactTopic" name="topic" required>
+                        <option value="">Choose a topic</option>
+                        <option value="Question">I have a question</option>
+                        <option value="Correction">I found a mistake</option>
+                        <option value="New object idea">Suggest a new object</option>
+                        <option value="Other">Something else</option>
+                    </select>
+
+                    <label for="contactMessage">Message</label>
+                    <textarea id="contactMessage" name="message" rows="6" maxlength="2000" aria-describedby="contactMessageCount" required></textarea>
+                    <p class="hint" id="contactMessageCount">0 of 2000 characters used.</p>
+
+                    <button type="submit">Send Message</button>
+                </form>
+                <div id="contactStatus" class="status-area" aria-live="polite"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 Ben DeStefon</p>
+        <p>Contact: <a href="mailto:bsdestef@go.olemiss.edu">bsdestef@go.olemiss.edu</a></p>
+    </footer>
+</body>
+</html>

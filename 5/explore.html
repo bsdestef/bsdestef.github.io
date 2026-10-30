@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ben DeStefon">
+    <meta name="description" content="Choose a category to explore planets, galaxies, and black holes.">
+    <title>Explore | Space Explorer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <script type="module" src="js/explore.js"></script>
+</head>
+<body data-access="protected">
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header class="site-header">
+        <div class="user-bar" id="userBar" aria-live="polite"></div>
+        <p class="site-name"><a href="index.html">Space Explorer</a></p>
+        <nav aria-label="Main">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="explore.html" aria-current="page">Explore</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <p class="loading loading-large" id="authGate" role="status">
+            <span class="spinner" aria-hidden="true"></span>
+            <span>Checking your sign-in…</span>
+        </p>
+        <noscript>
+            <p class="status status-error">Space Explorer needs JavaScript turned on so you can log in.</p>
+        </noscript>
+
+        <div id="pageContent" hidden>
+            <h1>Explore Space</h1>
+            <p class="page-intro">Pick a category to see its objects, then pick an object for photos, facts, and sources. Use the back buttons at any time to change your choice.</p>
+            <div id="explorer" class="explorer"></div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 Ben DeStefon</p>
+        <p>Contact: <a href="mailto:bsdestef@go.olemiss.edu">bsdestef@go.olemiss.edu</a></p>
+    </footer>
+</body>
+</html>

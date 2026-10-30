@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ben DeStefon">
+    <meta name="keywords" content="space, planets, galaxies, black holes, astronomy, exploration">
+    <meta name="description" content="Space Explorer is a guide to the planets, galaxies, and black holes of our universe. Log in or create a free account to start exploring.">
+    <title>Home | Space Explorer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <script type="module" src="js/home.js"></script>
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header class="site-header">
+        <div class="user-bar" id="userBar" aria-live="polite"></div>
+        <p class="site-name"><a href="index.html">Space Explorer</a></p>
+        <nav aria-label="Main">
+            <ul>
+                <li><a href="index.html" aria-current="page">Home</a></li>
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <div class="hero">
+            <h1>Welcome to Space Explorer</h1>
+            <p class="lead">Your guide to the universe, from the rocky planets next door to galaxies millions of light-years away and black holes billions of times heavier than the Sun.</p>
+            <p>Log in or create a free account to explore everything.</p>
+        </div>
+
+        <div class="home-layout">
+            <div class="auth-card" id="authCard">
+                <div id="pageMessage" class="status-area" aria-live="polite"></div>
+
+                <p class="loading" id="authChecking" role="status">
+                    <span class="spinner" aria-hidden="true"></span>
+                    <span>Checking whether you're signed in…</span>
+                </p>
+                <noscript>
+                    <p class="status status-error">Space Explorer needs JavaScript turned on so you can log in.</p>
+                </noscript>
+
+                <!-- Shown when nobody is signed in -->
+                <div id="signedOutPanel" hidden>
+                    <div id="loginPanel">
+                        <h2 id="loginHeading" tabindex="-1">Log In</h2>
+                        <p class="form-intro">Welcome back! Enter the email and password you signed up with.</p>
+                        <form id="loginForm" class="stacked-form">
+                            <label for="loginEmail">Email</label>
+                            <input type="email" id="loginEmail" name="email" autocomplete="email" required>
+
+                            <label for="loginPassword">Password</label>
+                            <input type="password" id="loginPassword" name="password" autocomplete="current-password" required>
+
+                            <button type="submit" class="full-width">Log In</button>
+                        </form>
+                        <button type="button" class="link-button" id="forgotPasswordButton">Forgot your password?</button>
+                        <div id="loginStatus" class="status-area" aria-live="polite"></div>
+                        <p class="switch-text">New to Space Explorer?
+                            <button type="button" class="link-button" id="showSignupButton">Create an account</button>
+                        </p>
+                    </div>
+
+                    <div id="signupPanel" hidden>
+                        <h2 id="signupHeading" tabindex="-1">Create an Account</h2>
+                        <p class="form-intro">It's free and takes less than a minute. All fields are required.</p>
+                        <form id="signupForm" class="stacked-form">
+                            <label for="signupName">Your name</label>
+                            <input type="text" id="signupName" name="displayName" autocomplete="name" maxlength="100" required>
+
+                            <label for="signupEmail">Email</label>
+                            <input type="email" id="signupEmail" name="email" autocomplete="email" required>
+
+                            <label for="signupPassword">Password</label>
+                            <input type="password" id="signupPassword" name="password" autocomplete="new-password" minlength="6" aria-describedby="signupPasswordHint" required>
+                            <p class="hint" id="signupPasswordHint">At least 6 characters.</p>
+
+                            <label for="signupConfirm">Confirm password</label>
+                            <input type="password" id="signupConfirm" name="confirmPassword" autocomplete="new-password" minlength="6" required>
+
+                            <button type="submit" class="full-width">Create Account</button>
+                        </form>
+                        <div id="signupStatus" class="status-area" aria-live="polite"></div>
+                        <p class="switch-text">Already have an account?
+                            <button type="button" class="link-button" id="showLoginButton">Log in instead</button>
+                        </p>
+                    </div>
+
+                    <p class="divider"><span>or</span></p>
+                    <button type="button" class="google-button full-width" id="googleButton">Continue with Google</button>
+                    <div id="googleStatus" class="status-area" aria-live="polite"></div>
+                </div>
+
+                <!-- Shown when someone is already signed in -->
+                <div id="signedInPanel" hidden>
+                    <h2 id="signedInHeading" tabindex="-1">Welcome back!</h2>
+                    <p>You're signed in as <strong id="signedInName"></strong>. Pick up where you left off:</p>
+                    <ul class="action-links">
+                        <li><a class="button-link" href="explore.html">Start Exploring</a></li>
+                        <li><a href="account.html">Manage your account</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <section class="features" aria-labelledby="featuresHeading">
+                <h2 id="featuresHeading">What you can do</h2>
+                <ul class="feature-list">
+                    <li>
+                        <h3>Explore 16 wonders of space</h3>
+                        <p>Choose a category, then an object, to see photos, facts, and sources for planets, galaxies, and black holes.</p>
+                    </li>
+                    <li>
+                        <h3>Learn how we measure space</h3>
+                        <p>Find out what a light-year is and how telescopes like Hubble and Webb see the universe.</p>
+                    </li>
+                    <li>
+                        <h3>Send us a message</h3>
+                        <p>Ask a question, report a mistake, or suggest a new object to add. You'll get a confirmation when it's saved.</p>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 Ben DeStefon</p>
+        <p>Contact: <a href="mailto:bsdestef@go.olemiss.edu">bsdestef@go.olemiss.edu</a></p>
+    </footer>
+</body>
+</html>
